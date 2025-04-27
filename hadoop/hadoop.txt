@@ -1,0 +1,11 @@
+Step 1
+
+hadoop fs -mkdir input
+
+Step2
+
+hadoop fs -put demo.txt input
+
+Step3
+
+hadoop jar jar_file_location input_dir output_dir
